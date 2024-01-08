@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular/cli": "^17.0.9",
     "json-server": "^0.17.4"
   }
 }
