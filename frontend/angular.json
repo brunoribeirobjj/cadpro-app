@@ -6,11 +6,18 @@
     "frontend": {
       "projectType": "application",
       "schematics": {
-      "@schematics/angular:component": {
-        "inlineTemplate": false,
-        "inlineStyle": false,
-        "skipTests": true
-      }
+        "@schematics/angular:component": {
+          "inlineTemplate": false,
+          "inlineStyle": false,
+          "skipTests": true,
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -34,12 +41,7 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -106,6 +108,6 @@
     }
   },
   "cli": {
-    "analytics": "6fedf6a0-b6fb-45bc-b98f-1755d12b2170"
+    "analytics": "a16f74bc-0dbe-4c35-ba84-4d523b09f973"
   }
 }
