@@ -30,6 +30,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,7 +57,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    ProductReadComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
