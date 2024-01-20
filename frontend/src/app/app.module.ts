@@ -58,7 +58,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    ProductReadComponent
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
