@@ -11,10 +11,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #ef683b;
 }
 
-.v-middle {
-    vertical-align: middle;
+.white {
+    color: #fff;
 }
 
-.sidenav a {
-    color: aliceblue;
+.v-middle {
+    vertical-align: middle;
 }
