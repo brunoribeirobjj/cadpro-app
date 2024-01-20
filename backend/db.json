@@ -21,9 +21,14 @@
       "id": 4
     },
     {
-      "name": "",
-      "price": "",
+      "name": "Lápis Preto",
+      "price": "2.50",
       "id": 5
+    },
+    {
+      "name": "ppppp",
+      "price": "35169816",
+      "id": 6
     }
   ]
 }
